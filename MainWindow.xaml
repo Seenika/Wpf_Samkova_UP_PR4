@@ -14,6 +14,6 @@
         <Button x:Name="KnopkaA" Content="A" Margin="356,192,0,0" FontSize="24" Click="KnopkaA_Click" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
         <Button x:Name="KnopkaB" Content="Б" Margin="418,192,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Click"/>
         <Button x:Name="KnopkaV" Content="В" Margin="483,192,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Click"/>
-        <Button x:Name="KnopkaG" Content="Г" Margin="544,192,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaG" Content="Г" Margin="544,192,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaG_Click"/>
     </Grid>
 </Window>
