@@ -7,9 +7,13 @@
         mc:Ignorable="d"
         Title="Менюшка" Height="450" Width="800">
     <Grid>
-        <Label Content="Навигатор по практической" Margin="252,10,252,385" FontSize="22"/>
-        <Button x:Name="Knopka1" Content="1" Margin="378,65,378,320" FontSize="24" Click="Knopka1_Click"/>
-        <Button x:Name="Knopka2" Content="2" Margin="378,129,378,256" FontSize="24"/>
-        <Button x:Name="Knopka3" Content="3" Margin="378,192,378,192" FontSize="24"/>
+        <Label Content="Навигатор по практической" Margin="252,10,0,0" FontSize="22" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Width="296"/>
+        <Button x:Name="Knopka1" Content="1" Margin="296,74,0,0" FontSize="24" Click="Knopka1_Click" Height="49" VerticalAlignment="Top" HorizontalAlignment="Left" Width="44"/>
+        <Button x:Name="Knopka2" Content="2" Margin="296,138,0,0" FontSize="24" Click="Knopka2_Click" HorizontalAlignment="Left" Width="44" Height="49" VerticalAlignment="Top"/>
+        <Label x:Name="Knopka3" Content="3" Margin="307,183,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaA" Content="A" Margin="356,192,0,0" FontSize="24" Click="KnopkaA_Click" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaB" Content="Б" Margin="418,192,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaV" Content="В" Margin="483,192,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaG" Content="Г" Margin="544,192,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
     </Grid>
 </Window>

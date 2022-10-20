@@ -31,5 +31,19 @@ namespace Wpf_Samkova_UP_PR4
             window1.Show();
             this.Close();
         }
+
+        private void Knopka2_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            window2.Show();
+            this.Close();
+        }
+
+        private void KnopkaA_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 window3 = new Window3();
+            window3.Show();
+            this.Close();
+        }
     }
 }
