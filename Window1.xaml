@@ -34,5 +34,6 @@
         <Button x:Name="Knop_Copy8" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="9" Background="#FF9BC6FF"/>
         <Button x:Name="Knop_Copy9" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="10" Background="#FF9BC6FF"/>
         <Button x:Name="Knop_Copy10" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="11" Background="#FF9BC6FF"/>
+        <Button x:Name="Menu" Content="Меню" Grid.ColumnSpan="2" Margin="66,397,0,0" Grid.Column="10" Click="Menu_Click"/>
     </Grid>
 </Window>
