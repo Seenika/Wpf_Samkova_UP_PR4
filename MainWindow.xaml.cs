@@ -52,5 +52,12 @@ namespace Wpf_Samkova_UP_PR4
             window4.Show();
             this.Close();
         }
+
+        private void KnopkaV_Click(object sender, RoutedEventArgs e)
+        {
+            Window5 window5 = new Window5();
+            window5.Show();
+            this.Close();
+        }
     }
 }
