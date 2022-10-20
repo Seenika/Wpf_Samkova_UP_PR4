@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Samkova_UP_PR4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Менюшка" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Навигатор по практической" Margin="252,10,252,385" FontSize="22"/>
+        <Button x:Name="Knopka1" Content="1" Margin="378,65,378,320" FontSize="24"/>
+        <Button x:Name="Knopka2" Content="2" Margin="378,129,378,256" FontSize="24"/>
+        <Button x:Name="Knopka3" Content="3" Margin="378,192,378,192" FontSize="24"/>
     </Grid>
 </Window>
