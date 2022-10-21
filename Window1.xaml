@@ -22,18 +22,18 @@
             <ColumnDefinition Width="10*"/>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="Knop" Content="1" Margin="10,10,10,373" FontSize="24" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="1" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy1" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="2" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy2" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="3" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy3" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="4" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy4" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="5" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy5" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="6" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy6" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="7" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy7" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="8" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy8" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="9" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy9" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="10" Background="#FF9BC6FF"/>
-        <Button x:Name="Knop_Copy10" Content="1" Margin="10,10,10,373" FontSize="24" Grid.Column="11" Background="#FF9BC6FF"/>
-        <Button x:Name="Menu" Content="Меню" Grid.ColumnSpan="2" Margin="66,397,0,0" Grid.Column="10" Click="Menu_Click"/>
+        <Button x:Name="Knop" Content="1" Margin="10,10,10,0" FontSize="24" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="1" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy1" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="2" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy2" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="3" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy3" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="4" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy4" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="5" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy5" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="6" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy6" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="7" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy7" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="8" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy8" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="9" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy9" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="10" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Knop_Copy10" Content="1" Margin="10,10,10,0" FontSize="24" Grid.Column="11" Background="#FF9BC6FF" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Menu" Content="Меню" Grid.Column="11" Click="Menu_Click" HorizontalAlignment="Center" Width="67" Height="37" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>

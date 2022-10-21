@@ -80,5 +80,12 @@ namespace Wpf_Samkova_UP_PR4
             window8.Show();
             this.Close();
         }
+
+        private void KnopkaV_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            Window9 window9 = new Window9();
+            window9.Show();
+            this.Close();
+        }
     }
 }

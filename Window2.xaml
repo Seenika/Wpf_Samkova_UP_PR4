@@ -17,13 +17,13 @@
             <ColumnDefinition Width="10*"/>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="Kop1" Content=".g-col-6" Margin="10,10,10,379"/>
-        <Button x:Name="Kop2" Content="1" Margin="10,10,10,379" Grid.Column="1"/>
-        <Button x:Name="Kop3" Content="1" Margin="10,10,10,379" Grid.Column="2"/>
-        <Button x:Name="Kop4" Content="1" Margin="10,10,10,379" Grid.Column="3"/>
-        <Button x:Name="Kop5" Content="1" Margin="10,10,10,379" Grid.Column="4"/>
-        <Button x:Name="Kop6" Content="1" Margin="10,10,10,379" Grid.Column="5"/>
-        <Button x:Name="Kop7" Content="1" Margin="10,10,10,379" Grid.Column="6"/>
-        <Button x:Name="Menu" Content="Меню" Margin="66,393,0,0" Grid.Column="5" Grid.ColumnSpan="2" Click="Menu_Click"/>
+        <Button x:Name="Kop1" Content=".g-col-6" Margin="10,10,10,0" Height="45" VerticalAlignment="Top"/>
+        <Button x:Name="Kop2" Content="1" Margin="10,10,10,0" Grid.Column="1" Height="45" VerticalAlignment="Top"/>
+        <Button x:Name="Kop3" Content="1" Margin="10,10,10,0" Grid.Column="2" Height="45" VerticalAlignment="Top"/>
+        <Button x:Name="Kop4" Content="1" Margin="10,10,10,0" Grid.Column="3" Height="45" VerticalAlignment="Top"/>
+        <Button x:Name="Kop5" Content="1" Margin="10,10,10,0" Grid.Column="4" Height="45" VerticalAlignment="Top"/>
+        <Button x:Name="Kop6" Content="1" Margin="10,10,10,0" Grid.Column="5" Height="45" VerticalAlignment="Top"/>
+        <Button x:Name="Kop7" Content="1" Margin="10,10,10,0" Grid.Column="6" Height="45" VerticalAlignment="Top"/>
+        <Button x:Name="Menu" Content="Меню" Grid.Column="6" Click="Menu_Click" HorizontalAlignment="Center" Width="67" Height="41" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
