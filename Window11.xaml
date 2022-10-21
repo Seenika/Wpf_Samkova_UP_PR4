@@ -1,0 +1,45 @@
+﻿<Window x:Class="Wpf_Samkova_UP_PR4.Window11"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Samkova_UP_PR4"
+        mc:Ignorable="d"
+        Title="4.Д" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="38*"/>
+            <RowDefinition Height="109*"/>
+            <RowDefinition Height="109*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="88*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="42*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="312*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Первая автоколонка&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" Grid.ColumnSpan="4" Margin="0,10,0,10" Grid.RowSpan="4" Background="#FFFEE8FF" Grid.Column="1"/>
+        <Button Content="Вторая автоколонка&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" Grid.ColumnSpan="5" Margin="0,10,0,10" Grid.RowSpan="4" Grid.Column="7" Background="#FFFEE8FF"/>
+        <Button Content="Первая автоколонка&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" Margin="0,10,10,10" Grid.RowSpan="4" Grid.Column="13" Background="#FFFEE8FF"/>
+        <Button Content="Автоколонка"  Grid.Column="1" Grid.Row="1" Background="#FFEBBCED"/>
+        <Button Content="Автоколонка" Grid.Column="3" Grid.Row="1" Background="#FFEBBCED"/>
+        <Button Content="6 of 12" Grid.Column="7" Grid.Row="1" Grid.RowSpan="2" Background="#FFEBBCED"/>
+        <Button Content="4 of 12" Grid.Column="9" Grid.Row="1" Grid.RowSpan="2" Background="#FFEBBCED"/>
+        <Button Content="2 of 12" Grid.Column="11" Grid.Row="1" Grid.RowSpan="2" Background="#FFEBBCED"/>
+        <Button x:Name="Menu" Content="Меню" Grid.Column="13" Grid.Row="5" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="105" Background="#FFEBBCED" Click="Menu_Click"/>
+    </Grid>
+</Window>
