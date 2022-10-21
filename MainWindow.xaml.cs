@@ -115,5 +115,12 @@ namespace Wpf_Samkova_UP_PR4
             window13.Show();
             this.Close();
         }
+
+        private void KnopkaV_Copy1_Click(object sender, RoutedEventArgs e)
+        {
+            Window14 window14 = new Window14();
+            window14.Show();
+            this.Close();
+        }
     }
 }
