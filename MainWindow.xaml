@@ -25,5 +25,6 @@
         <Button x:Name="KnopkaA_Copy1" Content="A" Margin="134,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy1_Click"/>
         <Button x:Name="KnopkaB_Copy1" Content="Б" Margin="196,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy1_Click"/>
         <Button x:Name="KnopkaV_Copy1" Content="В" Margin="261,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Copy1_Click"/>
+        <Button x:Name="KnopkaG_Copy1" Content="Г" Margin="322,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaG_Copy1_Click"/>
     </Grid>
 </Window>

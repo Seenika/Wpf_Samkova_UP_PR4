@@ -29,5 +29,19 @@
             <ColumnDefinition Width="100*"/>
             <ColumnDefinition Width="14*"/>
         </Grid.ColumnDefinitions>
+
+        <Button x:Name="Zagruzka" Content="Загрузка" Margin="0,0,0,0" Grid.Row="1" Grid.Column="1" FontSize="18"/>
+        <Button x:Name="VibFal12" Content="Выберите файл" Margin="0,0,0,0" Grid.Row="1" Grid.Column="2" FontSize="18" Grid.ColumnSpan="2"/>
+        <Button x:Name="VibFal1" Content="Выберите файл" Margin="0,0,0,0" Grid.Row="3" Grid.Column="1" FontSize="18" Grid.ColumnSpan="2"/>
+        <Button x:Name="But1" Content="Кнопка" Margin="0,0,0,0" Grid.Row="5" Grid.Column="1" FontSize="18" Grid.ColumnSpan="1" Background="White"/>
+        <Button x:Name="VibFal11" Content="Выберите файл" Margin="0,0,0,0" Grid.Row="5" Grid.Column="2" FontSize="18" Grid.ColumnSpan="2"/>
+        <Button x:Name="VibFal3" Content="Выберите файл" Margin="0,0,0,0" Grid.Row="7" Grid.Column="1" FontSize="18" Grid.ColumnSpan="2"/>
+        <Button x:Name="Zagruzka1" Content="Загрузка" Margin="0,0,0,0" Grid.Row="3" Grid.Column="5" FontSize="18"/>
+        <Button x:Name="But12" Content="Кнопка" Margin="0,0,0,0" Grid.Row="7" Grid.Column="5" FontSize="18" Grid.ColumnSpan="1" Background="White"/>
+        <TextBlock Text="Файл не выбран" Margin="0,0,0,0" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" FontSize="18"/>
+        <TextBlock Text="Файл не выбран" Margin="0,0,0,0" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" FontSize="18"/>
+        <TextBlock Text="Файл не выбран" Margin="0,0,0,0" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" FontSize="18"/>
+        <TextBlock Text="Файл не выбран" Margin="0,0,0,0" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="2" FontSize="18"/>
+        <Button x:Name="Menu" Content="Меню" Grid.Column="5" Grid.Row="9" FontSize="18" Click="Menu_Click"/>
     </Grid>
 </Window>
