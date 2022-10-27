@@ -160,7 +160,9 @@ namespace Wpf_Samkova_UP_PR4
 
         private void KnopkaB_Copy3_Click(object sender, RoutedEventArgs e)
         {
-
+            Window20 window20 = new Window20();
+            window20.Show();
+            this.Close();
         }
 
         private void KnopkaV_Copy2_Click(object sender, RoutedEventArgs e)
