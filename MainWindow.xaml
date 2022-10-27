@@ -8,24 +8,27 @@
         Title="Менюшка" Height="450" Width="800">
     <Grid>
         <Label Content="Навигатор по практической" Margin="252,10,0,0" FontSize="22" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Width="296"/>
-        <Button x:Name="Knopka1" Content="1" Margin="74,47,0,0" FontSize="24" Click="Knopka1_Click" Height="49" VerticalAlignment="Top" HorizontalAlignment="Left" Width="44"/>
-        <Button x:Name="Knopka2" Content="2" Margin="74,111,0,0" FontSize="24" Click="Knopka2_Click" HorizontalAlignment="Left" Width="44" Height="49" VerticalAlignment="Top"/>
-        <Label x:Name="Knopka3" Content="3" Margin="85,156,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
-        <Button x:Name="KnopkaA" Content="A" Margin="134,165,0,0" FontSize="24" Click="KnopkaA_Click" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
-        <Button x:Name="KnopkaB" Content="Б" Margin="196,165,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Click"/>
-        <Button x:Name="KnopkaV" Content="В" Margin="261,165,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Click"/>
-        <Button x:Name="KnopkaG" Content="Г" Margin="322,165,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaG_Click"/>
-        <Label x:Name="Knopka4" Content="4" Margin="85,222,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
-        <Button x:Name="KnopkaA_Copy" Content="A" Margin="134,231,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy_Click"/>
-        <Button x:Name="KnopkaB_Copy" Content="Б" Margin="196,231,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy_Click"/>
-        <Button x:Name="KnopkaV_Copy" Content="В" Margin="261,231,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Copy_Click"/>
-        <Button x:Name="KnopkaG_Copy" Content="Г" Margin="322,231,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaG_Copy_Click"/>
-        <Button x:Name="KnopkaD" Content="Д" Margin="380,231,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaD_Click"/>
-        <Label x:Name="Knopka5" Content="5" Margin="85,291,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
-        <Button x:Name="KnopkaA_Copy1" Content="A" Margin="134,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy1_Click"/>
-        <Button x:Name="KnopkaB_Copy1" Content="Б" Margin="196,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy1_Click"/>
-        <Button x:Name="KnopkaV_Copy1" Content="В" Margin="261,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Copy1_Click"/>
-        <Button x:Name="KnopkaG_Copy1" Content="Г" Margin="322,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaG_Copy1_Click"/>
-        <Button x:Name="KnopkaD_Copy" Content="Д" Margin="380,291,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaD_Copy_Click"/>
+        <Button x:Name="Knopka1" Content="1" Margin="79,55,0,0" FontSize="24" Click="Knopka1_Click" Height="49" VerticalAlignment="Top" HorizontalAlignment="Left" Width="44"/>
+        <Button x:Name="Knopka2" Content="2" Margin="79,109,0,0" FontSize="24" Click="Knopka2_Click" HorizontalAlignment="Left" Width="44" Height="49" VerticalAlignment="Top"/>
+        <Label x:Name="Knopka3" Content="3" Margin="85,154,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaA" Content="A" Margin="134,157,0,0" FontSize="24" Click="KnopkaA_Click" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaB" Content="Б" Margin="196,157,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Click"/>
+        <Button x:Name="KnopkaV" Content="В" Margin="261,157,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Click"/>
+        <Button x:Name="KnopkaG" Content="Г" Margin="322,157,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaG_Click"/>
+        <Label x:Name="Knopka4" Content="4" Margin="85,208,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaA_Copy" Content="A" Margin="134,210,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy_Click"/>
+        <Button x:Name="KnopkaB_Copy" Content="Б" Margin="196,210,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy_Click"/>
+        <Button x:Name="KnopkaV_Copy" Content="В" Margin="261,210,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Copy_Click"/>
+        <Button x:Name="KnopkaG_Copy" Content="Г" Margin="322,210,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaG_Copy_Click"/>
+        <Button x:Name="KnopkaD" Content="Д" Margin="380,210,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaD_Click"/>
+        <Label x:Name="Knopka5" Content="5" Margin="85,259,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaA_Copy1" Content="A" Margin="134,263,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy1_Click"/>
+        <Button x:Name="KnopkaB_Copy1" Content="Б" Margin="196,263,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy1_Click"/>
+        <Button x:Name="KnopkaV_Copy1" Content="В" Margin="261,263,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Copy1_Click"/>
+        <Button x:Name="KnopkaG_Copy1" Content="Г" Margin="322,263,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaG_Copy1_Click"/>
+        <Button x:Name="KnopkaD_Copy" Content="Д" Margin="380,263,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaD_Copy_Click"/>
+        <Label x:Name="Knopka5_Copy" Content="6" Margin="85,314,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaA_Copy2" Content="A" Margin="134,316,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy2_Click"/>
+        <Button x:Name="KnopkaB_Copy2" Content="Б" Margin="196,316,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy2_Click"/>
     </Grid>
 </Window>
