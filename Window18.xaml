@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Samkova_UP_PR4"
         mc:Ignorable="d"
-        Title="Window18" Height="326" Width="800">
+        Title="6.Б" Height="326" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="18*"/>
