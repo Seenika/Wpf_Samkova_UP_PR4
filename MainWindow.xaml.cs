@@ -146,6 +146,25 @@ namespace Wpf_Samkova_UP_PR4
 
         private void KnopkaB_Copy2_Click(object sender, RoutedEventArgs e)
         {
+            Window18 window18 = new Window18();
+            window18.Show();
+            this.Close();
+        }
+
+        private void KnopkaA_Copy3_Click(object sender, RoutedEventArgs e)
+        {
+            Window19 window19 = new Window19();
+            window19.Show();
+            this.Close();
+        }
+
+        private void KnopkaB_Copy3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void KnopkaV_Copy2_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

@@ -30,5 +30,9 @@
         <Label x:Name="Knopka5_Copy" Content="6" Margin="85,314,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
         <Button x:Name="KnopkaA_Copy2" Content="A" Margin="134,316,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy2_Click"/>
         <Button x:Name="KnopkaB_Copy2" Content="Б" Margin="196,316,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy2_Click"/>
+        <Label x:Name="Knopka5_Copy1" Content="7" Margin="448,50,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaA_Copy3" Content="A" Margin="497,55,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy3_Click"/>
+        <Button x:Name="KnopkaB_Copy3" Content="Б" Margin="547,55,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy3_Click"/>
+        <Button x:Name="KnopkaV_Copy2" Content="В" Margin="598,55,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Copy2_Click"/>
     </Grid>
 </Window>
