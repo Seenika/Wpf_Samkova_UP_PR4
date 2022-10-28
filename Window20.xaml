@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Samkova_UP_PR4"
         mc:Ignorable="d"
-        Title="7.Б" Height="450" Width="800">
+        Title="7.Б" Height="356" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="15*"/>
+            <RowDefinition Height="20*"/>
             <RowDefinition Height="71*"/>
             <RowDefinition Height="23*"/>
             <RowDefinition Height="63*"/>
             <RowDefinition Height="23*"/>
-            <RowDefinition Height="23*"/>
-            <RowDefinition Height="23*"/>
-            <RowDefinition Height="23*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
             <RowDefinition Height="63*"/>
             <RowDefinition Height="23*"/>
             <RowDefinition Height="63*"/>
-            <RowDefinition Height="15*"/>
+            <RowDefinition Height="20*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="8*"/>
@@ -28,6 +28,21 @@
             <ColumnDefinition Width="297*"/>
             <ColumnDefinition Width="8*"/>
         </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="1" Grid.Column="1" Content="Эл. почта" Margin="0,0,0,0" FontSize="18" Grid.ColumnSpan="2"/>
+        <Label Grid.Row="3" Grid.Column="1" Content="Пароль" Margin="0,0,0,0" FontSize="18" Grid.ColumnSpan="2"/>
+        <Label Grid.Row="4" Grid.Column="1" Content="Радио кнопки" Margin="0,0,0,0" FontSize="18" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+        <Button Content="Войти" Grid.Column="1" Grid.Row="10" FontSize="18" Background="#FF0010FF" Foreground="White" BorderBrush="#FF211D9C"/>
+
+        <TextBox Grid.Column="3" Margin="0,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" BorderBrush="#FF848484" FontSize="18"/>
+        <TextBox Grid.Column="3" Grid.Row="3" TextWrapping="Wrap" Text="" BorderBrush="#FF848484" FontSize="18"/>
+
+        <RadioButton Grid.Column="3" Content="Первая радио кнопка" Margin="0,0,0,0" Grid.Row="5"/>
+        <RadioButton Grid.Column="3" Content="Вторая радио кнопка" Margin="0,0,0,0" Grid.Row="6"/>
+        <RadioButton Grid.Column="3" Content="Третья отключенная радио кнопка" Margin="0,0,0,0" Grid.Row="7" IsEnabled="False"/>
+        
+       
+
 
     </Grid>
 </Window>
