@@ -41,8 +41,7 @@
         <RadioButton Grid.Column="3" Content="Вторая радио кнопка" Margin="0,0,0,0" Grid.Row="6"/>
         <RadioButton Grid.Column="3" Content="Третья отключенная радио кнопка" Margin="0,0,0,0" Grid.Row="7" IsEnabled="False"/>
         
-       
-
-
+        <CheckBox Grid.Column="3" Content="CheckBox" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Center" Width="282" Height="24"/>
+        
     </Grid>
 </Window>
