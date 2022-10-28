@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Wpf_Samkova_UP_PR4
 {
     /// <summary>
-    /// Логика взаимодействия для Window20.xaml
+    /// Логика взаимодействия для Window21.xaml
     /// </summary>
-    public partial class Window20 : Window
+    public partial class Window21 : Window
     {
-        public Window20()
+        public Window21()
         {
             InitializeComponent();
         }

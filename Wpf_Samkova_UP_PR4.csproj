@@ -94,6 +94,9 @@
     <Compile Include="Window20.xaml.cs">
       <DependentUpon>Window20.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window21.xaml.cs">
+      <DependentUpon>Window21.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window3.xaml.cs">
       <DependentUpon>Window3.xaml</DependentUpon>
     </Compile>
@@ -176,6 +179,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window21.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
