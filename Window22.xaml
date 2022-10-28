@@ -7,6 +7,37 @@
         mc:Ignorable="d"
         Title="8.А" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="335*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="16*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="188*"/>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="24*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="New" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="Save" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="Search" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="Delete" Grid.Column="7" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="New" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Content="New" Grid.Column="12" Grid.Row="1" Grid.ColumnSpan="3"/>
     </Grid>
 </Window>
