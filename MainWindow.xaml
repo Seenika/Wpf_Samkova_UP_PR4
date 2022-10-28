@@ -34,5 +34,8 @@
         <Button x:Name="KnopkaA_Copy3" Content="A" Margin="497,55,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy3_Click"/>
         <Button x:Name="KnopkaB_Copy3" Content="Б" Margin="547,55,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy3_Click"/>
         <Button x:Name="KnopkaV_Copy2" Content="В" Margin="598,55,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaV_Copy2_Click"/>
+        <Label x:Name="Knopka5_Copy2" Content="8" Margin="448,114,0,0" FontSize="36" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="KnopkaA_Copy4" Content="A" Margin="497,119,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaA_Copy4_Click"/>
+        <Button x:Name="KnopkaB_Copy4" Content="Б" Margin="547,119,0,0" FontSize="24" HorizontalAlignment="Left" Width="44" Height="50" VerticalAlignment="Top" Click="KnopkaB_Copy4_Click"/>
     </Grid>
 </Window>
