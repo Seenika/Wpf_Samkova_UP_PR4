@@ -5,39 +5,128 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Samkova_UP_PR4"
         mc:Ignorable="d"
-        Title="8.А" Height="450" Width="800">
-    <Grid>
+        Title="8.А" Height="540" Width="881">
+    <Grid Background="PaleGreen">
         <Grid.RowDefinitions>
-            <RowDefinition Height="19*"/>
-            <RowDefinition Height="335*"/>
-            <RowDefinition Height="33*"/>
-            <RowDefinition Height="31*"/>
-            <RowDefinition Height="16*"/>
+            <RowDefinition Height="13*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="47*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10*"/>
-            <ColumnDefinition Width="188*"/>
-            <ColumnDefinition Width="22*"/>
-            <ColumnDefinition Width="79*"/>
-            <ColumnDefinition Width="79*"/>
-            <ColumnDefinition Width="10*"/>
-            <ColumnDefinition Width="101*"/>
-            <ColumnDefinition Width="10*"/>
-            <ColumnDefinition Width="89*"/>
             <ColumnDefinition Width="12*"/>
-            <ColumnDefinition Width="79*"/>
-            <ColumnDefinition Width="6*"/>
-            <ColumnDefinition Width="31*"/>
-            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="102*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="14*"/>
             <ColumnDefinition Width="52*"/>
-            <ColumnDefinition Width="24*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="48*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="16*"/>
         </Grid.ColumnDefinitions>
 
-        <Button Content="New" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <Button Content="Save" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <Button Content="Search" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <Button Content="Delete" Grid.Column="7" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <Button Content="New" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <Button Content="New" Grid.Column="12" Grid.Row="1" Grid.ColumnSpan="3"/>
+        <Label Content="Voucher Type:" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Debit (Head of Account):" Grid.Row="3" Grid.Column="1"/>
+        <Label Content="Remitted/Paid to" Grid.Row="5" Grid.Column="1"/>
+        <Label Content="Payment Type:" Grid.Row="7" Grid.Column="1"/>
+        <Label Content="Cheque No:" Grid.Row="9" Grid.Column="1"/>
+        <Label Content="Amount In Words:" Grid.Row="11" Grid.Column="1"/>
+        <Label Content="Being:" Grid.Row="17" Grid.Column="1"/>
+
+        <Label Content="Dated:" Grid.Row="9" Grid.Column="6" Grid.ColumnSpan="3"/>
+
+        <Label Content="Voucher No:" Grid.Row="1" Grid.Column="12" Grid.ColumnSpan="3"/>
+        <Label Content="Date:" Grid.Row="3" Grid.Column="12" Grid.ColumnSpan="3"/>
+        <Label Content="Amount:" Grid.Row="9" Grid.Column="12" Grid.ColumnSpan="3"/>
+        <Label Content="Less:" Grid.Row="11" Grid.Column="12" Grid.ColumnSpan="3"/>
+        <Label Content="Less:" Grid.Row="13" Grid.Column="12" Grid.ColumnSpan="3"/>
+        <Label Content="Add:" Grid.Row="15" Grid.Column="12" Grid.ColumnSpan="3"/>
+        <Label Content="Add:" Grid.Row="17" Grid.Column="12" Grid.ColumnSpan="3"/>
+        <Label Content="Total Amount:" Grid.Row="19" Grid.Column="12" Grid.ColumnSpan="3"/>
+        <Label Content="Approved By:" Grid.Row="21" Grid.Column="12" Grid.ColumnSpan="3"/>
+
+        <Button Content="New" Grid.Row="24" Grid.Column="3">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FFD2D2D2" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Seve" Grid.Row="24" Grid.Column="4" Grid.ColumnSpan="3">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEFEFEF"/>
+                    <GradientStop Color="#FFD0D0D0" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Search" Grid.Row="24" Grid.Column="8" Grid.ColumnSpan="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF1F1F1"/>
+                    <GradientStop Color="#FFD4D4D4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Delete" Grid.Row="24" Grid.Column="11" Grid.ColumnSpan="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEFEFEF"/>
+                    <GradientStop Color="#FFD0D0D0" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Print" Grid.Row="24" Grid.Column="14" Grid.ColumnSpan="3">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEFEFEF"/>
+                    <GradientStop Color="LightGray" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Close" Grid.Row="24" Grid.Column="18">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEFEFEF"/>
+                    <GradientStop Color="#FFD4D4D4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        
+        
     </Grid>
 </Window>
