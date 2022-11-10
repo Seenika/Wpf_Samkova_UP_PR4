@@ -100,6 +100,9 @@
     <Compile Include="Window22.xaml.cs">
       <DependentUpon>Window22.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window23.xaml.cs">
+      <DependentUpon>Window23.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window3.xaml.cs">
       <DependentUpon>Window3.xaml</DependentUpon>
     </Compile>
@@ -190,6 +193,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window23.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
