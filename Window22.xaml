@@ -118,7 +118,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Close" Grid.Row="24" Grid.Column="18">
+        <Button Content="Close" Grid.Row="24" Grid.Column="18" Click="Button_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFEFEFEF"/>
@@ -135,5 +135,13 @@
 
         <TextBlock Grid.Row="11" Grid.Column="3" Grid.ColumnSpan="9" Grid.RowSpan="5" Background="White"/>
         <TextBlock Grid.Row="17" Grid.Column="3" Grid.ColumnSpan="9" Grid.RowSpan="5" Background="White"/>
+        <DatePicker Grid.Column="16" Margin="0,0,0,0" Grid.Row="3" Grid.ColumnSpan="3"/>
+        <TextBox Grid.Column="16" Grid.ColumnSpan="3"  Grid.Row="9" TextWrapping="Wrap" Text="0.00" />
+        <TextBox Grid.Column="16" Grid.ColumnSpan="3"  Grid.Row="11" TextWrapping="Wrap" Text="0.00" />
+        <TextBox Grid.Column="16" Grid.ColumnSpan="3"  Grid.Row="13" TextWrapping="Wrap" Text="0.00" />
+        <TextBox Grid.Column="16" Grid.ColumnSpan="3"  Grid.Row="15" TextWrapping="Wrap" Text="0.00" />
+        <TextBox Grid.Column="16" Grid.ColumnSpan="3"  Grid.Row="17" TextWrapping="Wrap" Text="0.00" />
+        <TextBox Grid.Column="16" Grid.ColumnSpan="3"  Grid.Row="19" TextWrapping="Wrap" Text="0.00" />
+
     </Grid>
 </Window>
