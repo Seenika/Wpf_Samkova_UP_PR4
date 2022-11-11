@@ -181,7 +181,9 @@ namespace Wpf_Samkova_UP_PR4
 
         private void KnopkaB_Copy4_Click(object sender, RoutedEventArgs e)
         {
-
+            Window23 window23 = new Window23();
+            window23.Show();
+            this.Close();
         }
     }
 }

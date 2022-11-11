@@ -8,22 +8,22 @@
         Title="8.Б" Height="450" Width="800">
     <Grid Background="Chocolate">
         <Grid.RowDefinitions>
+            <RowDefinition Height="16*"/>
+            <RowDefinition Height="46*"/>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="29*"/>
             <RowDefinition Height="13*"/>
-            <RowDefinition Height="40*"/>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="11*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="11*"/>
@@ -42,8 +42,8 @@
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
 
-        <Label Content="Employee Salary" Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="4" Margin="100,0,0,0" FontSize="26" Background="White"/>
-        <Label Content="Employee Name" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" Width="160" RenderTransformOrigin="0.5,0.5">
+        <Label Content="Employee Salary" Grid.Column="3" Grid.ColumnSpan="4" FontSize="26" Background="White" Height="47" VerticalAlignment="Center" Grid.Row="1" HorizontalAlignment="Left" Width="204" Margin="100,0,0,0"/>
+        <Label Content="Employee Name" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left" Width="160" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Foreground="Black" Height="28">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -53,6 +53,35 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        
+        <Label Content="Empioyee Id" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Left" Height="29" VerticalAlignment="Center" Width="75"/>
+        <Label Content="Empioyee Grade" Grid.Column="1" Grid.Row="9" HorizontalAlignment="Center" Width="172" Height="29" VerticalAlignment="Center"/>
+        <Label Content="Hours:" Grid.Column="6" Grid.Row="4" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="66" Height="29" VerticalAlignment="Center"/>
+        <Label Content="Hours:" Grid.Column="6" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="66" Height="29" VerticalAlignment="Center"/>
+        <Label Content="Hours:" Grid.Column="6" Grid.Row="8" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="66" Height="29" VerticalAlignment="Center"/>
+        <Label Content="Hours:" Grid.Column="6" Grid.Row="10" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="66" Height="29" VerticalAlignment="Center"/>
+        <Label Content="Hours:" Grid.Column="6" Grid.Row="12" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="66" Height="29" VerticalAlignment="Center"/>
+        <Label Content="Minutes:" Grid.Column="10" Grid.Row="4" HorizontalAlignment="Center" Width="101" Height="29" VerticalAlignment="Center"/>
+        <Label Content="Minutes:" Grid.Column="10" Grid.Row="6" HorizontalAlignment="Center" Width="101" Height="29" VerticalAlignment="Center"/>
+        <Label Content="Minutes:" Grid.Column="10" Grid.Row="8" HorizontalAlignment="Center" Width="101" Height="28" VerticalAlignment="Center"/>
+        <Label Content="Minutes:" Grid.Column="10" Grid.Row="10" HorizontalAlignment="Center" Width="101" Height="28" VerticalAlignment="Center"/>
+        <Label Content="Minutes:" Grid.Column="10" Grid.Row="12" HorizontalAlignment="Center" Width="101" Height="28" VerticalAlignment="Center"/>
+        <TextBox Grid.Column="8" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="8" VerticalAlignment="Center" Width="56" Height="29"/>
+        <TextBox Grid.Column="8" HorizontalAlignment="Center" Grid.Row="6" TextWrapping="Wrap" Text="8" VerticalAlignment="Center" Width="56" Height="29"/>
+        <TextBox Grid.Column="8" HorizontalAlignment="Center" Grid.Row="8" TextWrapping="Wrap" Text="8" VerticalAlignment="Center" Width="56" Height="29"/>
+        <TextBox Grid.Column="8" HorizontalAlignment="Center" Grid.Row="10" TextWrapping="Wrap" Text="8" VerticalAlignment="Center" Width="56" Height="29"/>
+        <TextBox Grid.Column="8" HorizontalAlignment="Center" Grid.Row="12" TextWrapping="Wrap" Text="8" VerticalAlignment="Center" Width="56" Height="29"/>
+        <TextBox Grid.Column="12" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="00" VerticalAlignment="Center" Width="88" Height="29"/>
+        <TextBox Grid.Column="12" HorizontalAlignment="Center" Grid.Row="6" TextWrapping="Wrap" Text="00" VerticalAlignment="Center" Width="88" Height="29"/>
+        <TextBox Grid.Column="12" HorizontalAlignment="Center" Grid.Row="8" TextWrapping="Wrap" Text="00" VerticalAlignment="Center" Width="88" Height="29"/>
+        <TextBox Grid.Column="12" HorizontalAlignment="Center" Grid.Row="10" TextWrapping="Wrap" Text="00" VerticalAlignment="Center" Width="88" Height="29"/>
+        <TextBox Grid.Column="12" HorizontalAlignment="Center" Grid.Row="12" TextWrapping="Wrap" Text="00" VerticalAlignment="Center" Width="88" Height="29"/>
+        <TextBox Grid.Column="10" Grid.ColumnSpan="3" HorizontalAlignment="Left" Margin="1,0,0,0" Grid.Row="14" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="141" Height="29"/>
+        <TextBox Grid.Column="3" HorizontalAlignment="Left" Grid.Row="4" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="120" Height="29"/>
+        <TextBox Grid.Column="3" HorizontalAlignment="Left" Grid.Row="6" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="120" Height="29"/>
+        <Menu Grid.Column="3" Grid.Row="9">
+            <MenuItem Header="G-1500"/>
+        </Menu>
+        <Label Content="Weekly Wage:" Grid.Column="5" Grid.Row="14" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="95" Height="29" VerticalAlignment="Center"/>
+        <Button Content="Show Wage" x:Name="Show_Wage" Grid.Column="3" Grid.Row="14" Height="29" VerticalAlignment="Center" HorizontalAlignment="Left" Width="120" Click="Show_Wage_Click"/>
     </Grid>
 </Window>
